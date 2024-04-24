@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_margin="5dp"
+    android:background="#00631212"
+    android:elevation="8dp"
+    android:foregroundTint="#00FFFFFF"
+    app:cardBackgroundColor="#00FFFFFF"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="#4F3F51B5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMsgUsr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Entrez votre message ici"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imgViewUsr"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/_03019_avatar_male_man_person_user_icon" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
